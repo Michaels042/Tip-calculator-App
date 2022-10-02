@@ -3,13 +3,13 @@
   color: white;
 }
 body {
-  background: #8990ec;
+  background: #9aec89;
 }
 .wrapper {
   height: 525px;
   width: 360px;
   color: white;
-  background: #272639;
+  background: #263933;
   border-radius: 1rem;
   padding: 1.2rem;
   margin: 100px auto;
@@ -26,7 +26,7 @@ body {
 }
 
 .inputContainer {
-  background: #353959;
+  background: #0f221a;
   border-radius: 1.4rem;
   padding: 0 0.8rem;
   display: flex;
@@ -43,7 +43,7 @@ body {
 }
 
 .buttonContainer {
-  background: #8990ec;
+  background: #239c52;
   display: grid;
   place-items: center;
   width: 1.6rem;
@@ -90,4 +90,21 @@ body {
 
 .total {
   font-size: 2rem;
+}
+
+p {
+  font-family: "helvetica neue", helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  background: #239c52;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-top: 2em;
+  display: inline-block;
+  cursor: pointer;
+}
+.caption {
+  display: flex;
+  justify-content: center;
 }

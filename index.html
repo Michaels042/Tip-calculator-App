@@ -11,11 +11,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>Tip Calculator</title>
+    <title>Bill Calculator</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="container" id="topContainer">
+        <div class="caption">
+          <h2>Bill Calculator</h2>
+        </div>
         <div class="title">Bill total</div>
         <div class="inputContainer">
           <span>$</span>
@@ -27,7 +30,9 @@
           />
         </div>
       </div>
-      <div class="container">
+      <p id="tip" onclick="toggleTip()">Without Tip</p>
+
+      <div class="container" id="tipContent">
         <div class="title">Tip</div>
         <div class="inputContainer">
           <span>%</span>
@@ -39,6 +44,7 @@
           />
         </div>
       </div>
+
       <div class="container" id="bottom">
         <div class="splitContainer">
           <div class="title">People</div>
@@ -62,6 +68,7 @@
         </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
